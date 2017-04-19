@@ -4,16 +4,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-
-
 public class Main4Chap03 {
 	public static void main(String[] args) {
-		runTest4IntPredicate();
-		
-		
+		runTest4IntPredicate();		
 	}
 	
 	
+	/**
+	 * IntPredicate 예제
+	 */
 	public static void runTest4IntPredicate() {
 		//기본형 특화를 사용하여 박싱이 일어나지 않는다.
 		IntPredicate_Exam ie = (int i) -> i % 2 == 0; 
@@ -24,9 +23,6 @@ public class Main4Chap03 {
 			System.out.println("1000 is odd number");
 		}
 	}
-	
-	
-	
 	
 	
 	////////////////////////////////
