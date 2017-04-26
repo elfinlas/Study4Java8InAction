@@ -19,9 +19,9 @@ public class MakeListObj4Dish {
 				new Dish("beef", false, 800, Type.MEAT),
 				new Dish("chicken", false, 800, Type.MEAT),
 				new Dish("french", false, 800, Type.MEAT),
-				new Dish("rice", true, 800, Type.MEAT),
+				new Dish("rice", true, 800, Type.MEAT), //true
 				new Dish("season", false, 800, Type.MEAT),
-				new Dish("pizza", true, 550, Type.MEAT),
+				new Dish("pizza", true, 550, Type.MEAT), //true
 				new Dish("prawns", false, 300, Type.FISH),
 				new Dish("salmon", false, 450, Type.FISH)
 				);
