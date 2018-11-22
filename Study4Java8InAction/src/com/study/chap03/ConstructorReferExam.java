@@ -8,21 +8,21 @@ import java.util.function.Function;
 
 /**
  * 생성자 레퍼런스를 테스트 하는 예제
- *
  * Created by MHLab on 15/11/2018..
  */
 
 public class ConstructorReferExam {
-
     public void runCode() {
-        List<Integer> weights = Arrays.asList(7, 3, 4, 10);
-        List<Apple> appleList = map(weights, Apple::new);
+        List<Integer> weights = Arrays.asList(7, 3, 4, 10); //무게 데이터 배열
+        List<Apple> appleList = map(weights, Apple::new); //무게를 전달하여 객체를 생성
         //List<Apple> appleList3 = map(weights,  (weight) -> new Apple(weight));  //위와 동일한 코드
 
+        System.out.println("Check Apple List 4 weight");
         for (Apple apple : appleList) {
             System.out.println("apple = " + apple.toString());
         }
 
+        System.out.println("Check Apple List 4 weight and color");
         List<String> colors = Arrays.asList("red", "green", "yello", "green");
         List<Apple> appleList2 = map(weights, colors, Apple::new );
         for (Apple apple : appleList2) {

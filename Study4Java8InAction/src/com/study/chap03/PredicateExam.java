@@ -23,9 +23,6 @@ public class PredicateExam {
         for (String str : nonEmptyStrList) {
             System.out.println(str);
         }
-
-
-
     }
 
 

@@ -7,6 +7,7 @@ import static java.util.Comparator.comparing;
 import java.util.List;
 
 /**
+ * 3.8.1 Comparator 예제
  * Created by MHLab on 15/11/2018..
  */
 

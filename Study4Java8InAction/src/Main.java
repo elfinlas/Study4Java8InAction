@@ -18,8 +18,12 @@ public class Main {
 //        new FunctionExam().runCode();
 //        new ConstructorReferExam().runCode();
 //        new Quiz().runCode();
-        new ComparatorExam().runCode();
+//        new ComparatorExam().runCode();
+//        new ConstructorReferExam().runCode(); //3.7
+//        new LambdaMethodReferExam().runCode(); //3.8
+        new LambdaUtilExam().runCode(); //3.9
     }
+
 
     public static void chap02() {
         Quiz1.runQuiz();
